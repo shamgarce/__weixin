@@ -1,0 +1,34 @@
+{
+    "name": "shampeak/request",
+    "description": "dev",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shampeak",
+            "email": "shampeak@sina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.5.9",
+        "ext-mbstring" : "*",
+        "league/url": "^3.3"
+    },
+    "require-dev": {
+
+    },
+    "autoload":{
+        "psr-4":{
+            "Sham\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer", "url": "http://packagist.phpcomposer.com"
+        },
+        {
+            "packagist": false
+        }
+    ]
+}

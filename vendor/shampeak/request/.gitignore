@@ -1,6 +1,9 @@
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+.idea/workspace.xml
+.idea/tasks.xml
+
 
 # Folder config file
 Desktop.ini
@@ -36,9 +39,21 @@ $RECYCLE.BIN/
 .Trashes
 
 # Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
 Network Trash Folder
 Temporary Items
+phpMyAdmin
+
+.AppleDB
+.AppleDesktop
 .apdisk
-phpmyadmin
+.svn
+
+vendor
+composer.lock
+
+# editplus
+*.bak
+
+
+
+
