@@ -1,5 +1,5 @@
 {
-    "name": "shampeak/cfig",
+    "name": "shampeak/mso",
     "description": "dev",
     "type": "package",
     "license": "MIT",
@@ -15,19 +15,14 @@
         "ext-mbstring" : "*"
     },
     "require-dev": {
-
     },
     "autoload":{
         "psr-4":{
-            "cfig\\": "src\\"
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer", "url": "http://packagist.phpcomposer.com"
+            "App\\": "App",
+            "Grace\\": "Grace",
+            "Sham\\": "Sham"
         },
-        {
-            "packagist": false
+        "psr-0": {
         }
-    ]
+    }
 }
