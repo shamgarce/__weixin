@@ -11,6 +11,10 @@ namespace Controller;
 class set extends BaseController {
 
       public function doIndex(){
+
+
+            print_r( $request);
+            exit;
             //echo 主界面
             view();
       }

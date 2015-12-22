@@ -52,6 +52,7 @@ return [
         'View'      => Sham\View\View::class,         //memcache对象
         'SQLite'      => Sham\SQLite\SQLite::class,         //memcache对象
         'Ground'      => Sham\Ground\Ground::class,         //系统脚手架
+        'Cmd'      => Sham\Cmd\Cmd::class,         //系统脚手架
     ],
 
 ];
